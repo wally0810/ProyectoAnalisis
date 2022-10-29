@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Paciente</title>
+    <link rel="stylesheet" href="./css/insertar.css">
+</head>
+<body>
+    <form name="registrapaciente" action="registrapaciente.php" method="post" >
+        <h1>Registro De Pacientes</h1>
+       
+        <p> Nombre Paciente:</p>
+             <input type="text" id="npaciente" name="npaciente" placeholder="Nombre Completo" required><i class="validation"><span></span><span></span></i>
+        
+        
+        <p> Direcci&oacuten Paciente:</p>
+            <input type="text" id="dpaciente" name="dpaciente" placeholder="Direccion" required><i class="validation"><span></span><span></span></i>
+        
+        
+        <p> Tel&eacutefono Paciente: </p>
+            <input type="number" id="tpaciente" name="tpaciente" placeholder="Telefono" required><i class="validation"><span></span><span></span></i>
+       
+       
+        <p> Fecha De Nacimiento:</p>
+             <input type="date" id="fpaciente" name="fpaciente" placeholder="Fecha De Nacimiento" required><i class="validation"><span></span><span></span></i>
+        
+        <p> Fecha De ingreso:</p>
+             <input type="date" id="fipaciente" name="fipaciente" placeholder="Fecha De Ingreso" required><i class="validation"><span></span><span></span></i>
+        
+        <p>Nombre Familiar: </p>
+            <input type="text" id="nfamiliar" name="nfamiliar" placeholder="Nombre Completo" required><i class="validation"><span></span><span></span></i>
+        
+         
+        <p>Tel&eacutefono Familiar:</p>
+            <input type="number" id="tfamiliar" name="tfamiliar" placeholder="Telefono" required><i class="validation"><span></span><span></span></i>
+        
+         
+        <p>Correo Familiar: </p>
+            <input type="email" id="cfamiliar" name="cfamiliar" placeholder="Correo" required><i class="validation"><span></span><span></span></i>
+       
+        <p class="center-content">
+           <input type="submit"  value="Registrar">
+           
+        </p>
+        <p class="center-content2">
+            <input type="reset" value="Limpiar">
+        </p>
+        
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    font-family: Arial;
+    background-color: rgb(50, 151, 137);
+    box-sizing: border-box;
+}
+
+form{
+    background-color: white;
+    border-radius: 8px;
+    color: gray;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 0 auto;
+    width: 900px;
+    
+}
+h1{
+    text-align: center;
+    color: #999;
+}
+
+
+input{
+    outline: none;
+    border: solid 1px #999 ;
+    border-radius: 5px;
+    padding: 8px;
+    width: 850px;
+    text-align: center;
+   
+    
+}
+
+.center-content,.center-content2{
+    
+    text-align: center;
+   
+
+    
+}
+
+select{
+    
+    outline: none;
+    border: solid 1px #999 ;
+    border-radius: 5px;
+    padding: 8px;
+    width: 850px;
+    text-align: center;
+    margin-left: .4rem;
+    margin-bottom: 1rem;
+}
+
+
+a {
+    outline: none;
+}
+    
+
+    
+
+ textarea{
+    outline: none;
+    border: solid 1px #999 ;
+    border-radius: 5px;
+    padding: 8px;
+    width: 850px;
+    text-align: justify;
+ }
+  
+ 
+
+
+
