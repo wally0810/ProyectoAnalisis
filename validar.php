@@ -12,7 +12,7 @@ $resultado= mysqli_query($conexion, $consulta);
 $filas=mysqli_fetch_array($resultado);
 
 
-if($filas['Id_puesto']==1 or $filas['Id_puesto']==3or $filas['Id_puesto']=>7 ){//Programador/SQA
+if($filas['Id_puesto']==1 or $filas['Id_puesto']==3 ){//Programador/SQA
     ?>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src= "sweetalertSucces.js"></script>
